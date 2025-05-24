@@ -1,7 +1,5 @@
 @media(max-width:  600px){
-    .all{
-        width: 600px;
-    }.left-second{
+    .left-second{
      margin-right: 35px;
     }
     .top{
