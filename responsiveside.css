@@ -1,13 +1,20 @@
 @media(max-width:  600px){
+    .all{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
     .left-second{
      margin-right: 35px;
     }
     .top{
-        max-width: 500px;
+          width: 100%;
         height: 220px;
     }
     .bottom{
-        width: 500px;
+          width: 100%;
         height: 220px;
     }
     .using{
@@ -19,23 +26,22 @@
         display: flex;
         flex-direction: column;
         row-gap: 10px;
-        width: fit-content;
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
     .right-second{
-        width: 540px;
+        width: 100%;
     }
     .right-second-blow{
-        width: 540px;
+        width: 100%;
         height: 170px;
     }
     .right{
-        width: fit-content;
-        margin-right: 35px;
+        width: 100%;
     }
     .third-container{
-        width: 500px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -55,11 +61,11 @@
         width: fit-content;
     }
     .fourth-container{
-        width: 510px;
+        width: 100%;
         padding:15px;
         margin-left: 13px;
     }
     .fifth-container{
-        width: 550px;
+       width: 100%;
     }
 }
