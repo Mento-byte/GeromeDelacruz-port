@@ -1,71 +1,71 @@
-@media(max-width:  600px){
-    .all{
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    .all {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 0;
+        width: 100%;
     }
-    .left-second{
-     margin-right: 35px;
+
+    .left-second,
+    .top,
+    .bottom,
+    .right,
+    .right-second,
+    .right-second-blow,
+    .fifth-container {
+        width: 100%;
+        height: auto;
     }
-    .top{
-          width: 100%;
-        height: 220px;
-    }
-    .bottom{
-          width: 100%;
-        height: 220px;
-    }
-    .using{
+
+    .using {
         display: flex;
         flex-wrap: wrap;
-        row-gap: 10px;
+        gap: 10px;
+        justify-content: center;
     }
-    .second-container{
+
+    .second-container {
         display: flex;
         flex-direction: column;
-        row-gap: 10px;
+        gap: 10px;
         width: 100%;
-        justify-content: center;
         align-items: center;
     }
-    .right-second{
-        width: 100%;
-    }
-    .right-second-blow{
-        width: 100%;
-        height: 170px;
-    }
-    .right{
-        width: 100%;
-    }
-    .third-container{
+
+    .third-container {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left:13px
+        padding: 0 13px;
     }
-    .info{
-        margin: 0;
+
+    .info {
+        margin: 0 0 0 20px;
         font-size: 25px;
-        margin-left: 20px;
     }
-    .tmain-con{
+
+    .tmain-con {
         display: grid;
         grid-template-columns: 1fr;
-        padding:30px;
-        row-gap: 30px;
-        width: fit-content;
-    }
-    .fourth-container{
+        justify-items: center;      /* centers content horizontally */
+        align-items: center;        /* centers content vertically */
+        gap: 30px;
         width: 100%;
-        padding:15px;
-        margin-left: 13px;
+        padding: 30px 15px;
     }
-    .fifth-container{
-       width: 100%;
+
+    .fourth-container {
+        width: 100%;
+        padding: 15px;
     }
 }
